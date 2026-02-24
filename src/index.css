@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0eb781;
+
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: 'DM Mono', monospace;
+
+  /* PaisaWaisa Colors */
+  --color-pw-green: #0eb781;
+  --color-pw-red: #ea5050;
+  --color-pw-blue: #4b8df8;
+  --color-pw-purple: #9b6ef5;
+  --color-pw-gold: #e28a1c;
+
+  --color-pw-bg: #fcfeff;
+  --color-pw-card: #ffffff;
+  --color-pw-text: #111418;
+  --color-pw-muted: #848a94;
+  --color-pw-border: #f1f3f5;
+  --color-pw-pill-bg: #f5f7f9;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+  --color-pw-bg: #09090b;
+  --color-pw-card: #18181b;
+  --color-pw-text: #fafafa;
+  --color-pw-muted: #a1a1aa;
+  --color-pw-border: #27272a;
+  --color-pw-pill-bg: #27272a;
+}
+
+@layer base {
+  body {
+    @apply bg-pw-bg text-pw-text font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-pw-green/20 text-pw-green;
+  }
+}
