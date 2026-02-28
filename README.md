@@ -1,5 +1,9 @@
 # React + Vite
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/lakshitraina/TaskFlow)
+[![Frontend](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)]()
+[![Styling](https://img.shields.io/badge/UI-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss)]()
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
