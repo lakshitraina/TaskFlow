@@ -1,20 +1,54 @@
-# React + Vite
+# ✅ TaskFlow – Smart Task Management App
+
+> **Organize Tasks. Boost Productivity. Stay Focused.**  
+> TaskFlow is a modern task management web application built with React and Vite, designed to help users efficiently manage daily tasks with a clean and responsive interface.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/lakshitraina/TaskFlow)
 [![Frontend](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)]()
+[![Build Tool](https://img.shields.io/badge/Build-Vite-purple?style=for-the-badge&logo=vite)]()
 [![Styling](https://img.shields.io/badge/UI-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss)]()
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**TaskFlow** is a productivity-focused task management application that allows users to create, manage, and track tasks efficiently.
 
-## React Compiler
+Built using **React + Vite**, the app offers fast performance, clean UI, and scalable architecture.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project demonstrates:
+- Component-based architecture
+- State management in React
+- Modern UI styling using Tailwind CSS
+- Fast development environment using Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+- ➕ Add new tasks  
+- 📝 Edit existing tasks  
+- ❌ Delete tasks  
+- ✅ Mark tasks as completed  
+- 📊 Organized task display  
+- 📱 Fully responsive design  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Language:** JavaScript (ES6+)
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/lakshitraina/TaskFlow.git
+cd TaskFlow
